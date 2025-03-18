@@ -1,0 +1,38 @@
+{
+  "name": "froala-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fluentui/react": "^8.122.9",
+    "@wiris/mathtype-froala3": "^7.31.1",
+    "froala-editor": "^4.5.0",
+    "jquery": "^3.5.1",
+    "mathjax": "^3.1.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-froala-wysiwyg": "^4.5.0",
+    "react-scripts": "^3.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
