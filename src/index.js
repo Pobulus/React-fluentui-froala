@@ -33,6 +33,9 @@ class App extends React.Component {
           {/* <DialogSurface className="pevi"> */}
           <BaseButton text="baseBu" onClick={this.openModal} />
           <EditorComponent />
+          <div id="logger" style={{overflow: 'scroll', maxHeight:'25vh', minHeight: '100px', borderRadius: '15px', margin: '5px', padding: '5px', color: 'white', backgroundColor: 'black'}}>Log started</div>
+
+
           {/* </DialogSurface> */}
         </Dialog>
       </div>
